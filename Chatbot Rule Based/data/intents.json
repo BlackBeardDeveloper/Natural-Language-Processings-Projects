@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "is anyone there", "hi there", "howdy", "hey there"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! How may I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "talk to you later", "i'm leaving", "have a good day", "catch you later"],
+      "responses": ["Goodbye! Have a great day.", "See you later!", "Bye! Come back if you need anything."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "that's helpful", "thanks a lot", "thank you so much", "appreciate it", "cheers"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["what are your hours", "when are you open", "opening hours", "what time do you open", "are you open now", "business hours", "when do you close"],
+      "responses": ["We are open Monday to Friday, 9am to 6pm.", "Our hours are 9am-6pm on weekdays, closed on weekends."]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["what payment methods do you accept", "do you take credit cards", "can i pay with paypal", "how do i pay", "payment options", "do you accept cash"],
+      "responses": ["We accept Visa, Mastercard, and PayPal.", "You can pay by credit card or PayPal."]
+    },
+    {
+      "tag": "shipping",
+      "patterns": ["how long does shipping take", "when will my order arrive", "shipping time", "do you ship internationally", "delivery time", "track my order"],
+      "responses": ["Standard shipping takes 3-5 business days.", "Most orders arrive within 3-5 business days; international may take longer."]
+    },
+    {
+      "tag": "returns",
+      "patterns": ["how do i return an item", "what is your return policy", "can i get a refund", "i want to return this", "return policy", "exchange an item"],
+      "responses": ["You can return items within 30 days for a full refund.", "Our return policy allows returns within 30 days of purchase."]
+    },
+    {
+      "tag": "products",
+      "patterns": ["what do you sell", "what products do you have", "tell me about your products", "what can i buy here", "do you have anything new"],
+      "responses": ["We sell a range of electronics, accessories, and home goods.", "Browse our catalog for electronics, accessories, and more."]
+    },
+    {
+      "tag": "support",
+      "patterns": ["i need help", "i have a problem", "something is wrong", "can you help me", "i need support", "my order is broken", "this isn't working"],
+      "responses": ["I'm sorry to hear that. Could you describe the issue?", "I'd be glad to help — what seems to be the problem?"]
+    },
+    {
+      "tag": "account",
+      "patterns": ["how do i create an account", "i forgot my password", "reset my password", "login problem", "can't sign in", "update my profile"],
+      "responses": ["You can reset your password from the login page via 'Forgot password'.", "To manage your account, go to Settings after signing in."]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["how much does it cost", "what are your prices", "is there a discount", "do you have any offers", "price of this item", "any coupons"],
+      "responses": ["Prices vary by product — check the item page for details.", "We run seasonal discounts; sign up for our newsletter for offers."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["where are you located", "what is your address", "where is your store", "do you have a physical store", "how do i find you"],
+      "responses": ["Our main store is at 123 Market Street.", "You can find us at 123 Market Street, or shop online anytime."]
+    }
+  ]
+}
