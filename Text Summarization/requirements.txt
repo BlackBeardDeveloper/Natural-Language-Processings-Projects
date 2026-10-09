@@ -1,7 +1,0 @@
-jupyter
-pandas
-numpy
-matplotlib
-scikit-learn
-nltk
-rouge-score
