@@ -1,7 +1,7 @@
 # Email Classification
 
 A beginner-level **NLP text-classification** project that classifies emails as **spam** or
-**legitimate (ham)** from their subject + body, using a TF-IDF + classic-ML pipeline.
+**legitimate (ham)** from their subject + body, using a MultinomailNB.
 
 ## Problem Statement
 
