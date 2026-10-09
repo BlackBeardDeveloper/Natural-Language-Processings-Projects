@@ -58,5 +58,5 @@ weighted metrics.
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook 01_eda.ipynb
+jupyter notebook SpamClassificationModel.ipynb
 ```
